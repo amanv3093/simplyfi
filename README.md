@@ -16,28 +16,6 @@ This project is a backend system built with Node.js and MongoDB. It features:
 - Caching: Uses Redis to cache views and likes for popular articles.
 - Notification System: Sends notifications to users when their articles are liked.
 
-## Installation
-
-## Prerequisites
-
-- Node.js
-- MongoDB
-- Redis (for caching)
-- npm or yarn
-
-## Clone the Repository
-
-- git clone <https://github.com/amanv3093/simplyfi.git>
-- cd <simplyfi>
-
-## Install Dependencies
-
-- npm install
-
-# Start the Server
-
-- npm start
-
 # API Endpoints
 
 ## Users
