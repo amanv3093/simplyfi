@@ -6,14 +6,20 @@ const Article = require("./Model/article");
 const Like = require("./Model/like");
 const View = require("./Model/view");
 const Notification = require("./Model/notifications");
-
+const dotenv = require("dotenv");
+dotenv.config();
 const app = express();
 app.use(express.json());
 
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB
-mongoose.connect("mongodb://localhost:27017/pro1");
+mongoose
+  .connect(process.env.DBSTRING)
+  .then(() => {
+    console.log("successful");
+  })
+  .catch((err) => console.log(err, "error"));
 
 // CRUD operations for Users
 app.post("/users", async (req, res) => {

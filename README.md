@@ -1,4 +1,4 @@
-# Article Management 
+# Article Management
 
 ## Overview
 
@@ -27,8 +27,8 @@ This project is a backend system built with Node.js and MongoDB. It features:
 
 ## Clone the Repository
 
-- git clone <repository-url>
-- cd <repository-directory>
+- git clone <https://github.com/amanv3093/simplyfi.git>
+- cd <simplyfi>
 
 ## Install Dependencies
 
