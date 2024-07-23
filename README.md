@@ -40,8 +40,20 @@ This project is a backend system built with Node.js and MongoDB. It features:
 
 # API Endpoints
 
+## Users
+ ```Users 
+ https://simplyfi-d1va.onrender.com/users
+   ```
+- GET /users: Retrieve all users.
+- POST /users: Create a new user.
+- GET /users/
+  : Retrieve a specific user by ID.
+
 ## Articles
 
+ ```Articles 
+ https://simplyfi-d1va.onrender.com/articles
+   ```
 - GET /articles: Retrieve all articles.
 - POST /articles: Create a new article.
 - GET /articles/
@@ -51,22 +63,21 @@ This project is a backend system built with Node.js and MongoDB. It features:
 - DELETE /articles/
   : Delete a specific article by ID.
 
-## Users
 
-- GET /users: Retrieve all users.
-- POST /users: Create a new user.
-- GET /users/
-  : Retrieve a specific user by ID.
 
 ## Article Likes and Views
-
+ ```Article Likes and Views 
+ https://simplyfi-d1va.onrender.com/articles/:id/like
+   ```
 - POST /articles/
   /like: Like an article.
 - POST /articles/
   /view: View an article.
 
 ## Notifications
-
+  ```Notifications 
+  https://simplyfi-d1va.onrender.com/users/:id/notifications
+   ```
 - GET /notifications: Retrieve all notifications.
 - POST /notifications: Create a new notification.
 
